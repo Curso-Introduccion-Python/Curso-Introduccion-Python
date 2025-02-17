@@ -1,0 +1,16 @@
+name: CursoPython
+channels:
+  - conda-forge
+  - anaconda
+  - pypi
+  - defaults
+dependencies:
+  - numpy=1.21.6
+  - pandas=1.4.2
+  - matplotlib=3.4.2
+  - seaborn=0.13.2
+  - openpyxl=3.0.9
+  - scipy=1.8.1
+  - python=3.8.13
+  - pip:
+    - rasterio==1.3.9
